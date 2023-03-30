@@ -1,0 +1,60 @@
+
+Digit recognition
+
+A task
+Determine the number of clusters and split the numbers into clusters.
+Suggest an interpretation of clusters.
+
+Each row of the dataset describes a digit.
+Numbers scanned with errors
+There is a grouping variable in the training sample - the correct number.
+
+The final goal of the task is a model for digit recognition.
+And it's not a clustering task
+
+But let's use this solution.
+First stage. First, we cluster the observations so that similar numbers come together in groups.
+Second phase. We build our own model for each cluster. Will have to build more models,
+but each of them will solve a simpler problem, it will be easier to build them, the general
+recognition quality will increase.
+
+In the laboratory work, you need to solve the problem of the first stage.
+Determine the number of clusters and split the numbers into clusters. You also need to offer
+interpretation for each cluster.
+
+Grouping variable "A" cannot be used in clustering,
+but it is recommended to use it when interpreting clusters.
+
+There are 7 variables in the data with the names "B" - "H",
+measured in nominal scale
+0 = line present
+1 = no line
+
+Lines correspond to dashes on the calculator screen
+B - top horizontal,
+C - upper left vertical,
+D - upper right vertical,
+E - middle horizontal,
+F - lower left vertical,
+G - lower right vertical,
+H - bottom horizontal.
+
+There are 8 variables and 500 observations in the dataset
+For some unknown reason, in the data table, each column is present twice
+
+Repeat below the first 10 rows of the dataset
+--------------------------------
+ A B C D E F G H
+--------------------------------
+ 7 1 0 1 0 0 1 0
+ 1 0 0 1 0 0 1 0
+ 4 0 1 1 1 0 1 0
+ 2 1 1 1 1 1 0 0
+ 8 0 1 1 1 1 1 1
+ 1 0 0 1 0 0 1 0
+ 5 1 1 0 1 0 1 1
+ 6 1 0 0 1 1 1 1
+ 2 1 0 1 1 1 0 1
+ 8 1 1 1 1 0 1 1
+Data taken from the book
+Breiman, Friedman, Olshen, Stone (1984). classification and regression trees.

@@ -1,0 +1,24 @@
+City economics
+
+The data describes economic conditions in 48 world cities in 1991.
+The data was collected by the Economic Research Department of Union Bank.
+(Switzerland). The economic conditions in 48 cities of the world in 1991 are described.
+
+
+Number of observations: 48 
+
+Names of variables:
+City: City name
+Work (Work): Weighted average of working hours calculated for 12 occupations
+
+Price (Price): Price index of 112 goods and services, including rent for housing (the value for Zurich is taken as 100%)
+
+Salary: Wage index per hour worked,
+calculated for 12 occupations after taxes and deductions (value for Zurich
+taken as 100%)
+
+For those who listened to the topic of factor analysis: it is recommended to apply
+factor analysis.
+
+
+The data is contained in the file Economics_of_Cities.сsv

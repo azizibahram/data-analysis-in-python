@@ -1,0 +1,26 @@
+One of the tasks of consumer segmentation may be the classification of consumers according to needs.
+Such segmentation can then help to identify which brands are popular among representatives of different segments, as well as how the company's products could be modified to meet the needs of an attractive segment.
+From a marketer's point of view, segments should be interpretable, measurable, and large enough. Typically, segmentation is part of a larger research.
+
+The dataset contains estimates of the extent to which respondents agree with statements that reflect the purpose of consuming lollipops. In total, each respondent gave marks on 11 statements:
+
+V1: I consume lozenges to freshen my breath
+V2: I consume lollipops to feel more confident
+V3: I consume lozenges to refresh my mouth
+V4: I consume lozenges to get rid of a bad taste in my mouth
+V5: I consume lollipops as a substitute for other confectionery
+V6: I consume lollipops when I want something sweet
+V7: Lollipops help me concentrate
+V8: I consume lollipops to distract myself for a few minutes and think
+V9: I consume lozenges to relieve a sore throat
+V10: I consume lozenges in order to get rid of nasal congestion
+V11: I consume lollipops to make me feel better
+
+
+Questions.
+Determine the number of clusters.
+Choose a classification method that gives the clearest results.
+
+Comment.
+Since a large dataset is being analyzed, the clustering procedure can
+work long enough
